@@ -11,9 +11,9 @@ spec:
   template:
     metadata:
       labels: { app: demo-app } 
-  spec:
-    containers:
-    - name: demo-app
-      image: cfbn89/demo-app:latest
-      ports:
-      - containerPort: 8080
+    spec:
+      containers:
+      - name: demo-app
+        image: cfbn89/demo-app:latest
+        ports:
+        - containerPort: 8080
