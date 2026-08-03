@@ -4,4 +4,4 @@ resources:
   - ../../base
 images:
   - name: cfbn89/demo-app
-    newTag: sha-d15256b
+    newTag: sha-66fe13b
