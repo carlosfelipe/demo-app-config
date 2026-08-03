@@ -21,7 +21,7 @@ spec:
             - containerPort: 8080
           readinessProbe:
             httpGet:
-              path: /actuator/health/readiness
+              path: /actuator/health/naoexiste
               port: 8080
             initialDelaySeconds: 10
             periodSeconds: 5
